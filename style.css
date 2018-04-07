@@ -7,11 +7,14 @@
 }
 .heading{
 	font-family: ItalianBreakfast-Regular;
-	font-size: 300px;
-	position:absolute;
+	position:relative;
 	margin:0;
-	left:40%;
-	top:2%;
+	
+}
+.confluence{
+left:40%;
+top:2%;
+font-size: 300px;
 }
 
 a{
@@ -20,26 +23,90 @@ a{
 
 h3:hover{
 	background-color:#fae3cd;
+	color:white;
 }
 
 .button{
 	border-radius:35px;
-	position:absolute;
-	font-family: ItalianBreakfast-Regular;
-	color:black;
-	font-size:90px;
-	background-color:#d5dfec;
+	position:relative;
+	font-family: 'Montserrat';
+	color:#A1C5CB;
+	font-size:60px;
+	background-color:black;
 	display:inline-block;
 	padding-top:0px;
+	padding-right:10px;
 	
 }
 .buttonPosition1{
 	left:70%;
-	top:35%;
+	top:40%;
 }
 
 .buttonPosition2{
 	left:55%;
-	top:35%;
+	top:40%;
 }
+
+.welcomeMentors{
+	position: relative;
+	font-size:70px;
+	top:0%;
+	margin: 10px;
+	text-align: center;
+
+}
+.descriptions{
+	top:5%;
+	font-size:20px;
+	text-align: center;
+}
+.watercolor{
+	background-image: url("watercolor.jpg");
+	background-size:100% 100%;
+}
+
+
+/*DOWN BELOW IS THE FORM 
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    margin-bottom:5px;
+}
+
+/* Full-width input fields */
+input[type=text] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=checkbox]{
+	display:inline-block;
+}
+/*
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+*/
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+
+
 
