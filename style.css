@@ -5,16 +5,23 @@
 @font-face { 
 	font-family: ItalianBreakfast-Regular; src: url('ItalianBreakfast-Regular.otf');
 }
+@font-face { 
+	font-family: KeepCalm-Medium; src: url('KeepCalm-Medium.ttf');
+}
 .heading{
 	font-family: ItalianBreakfast-Regular;
 	position:relative;
 	margin:0;
-	
 }
 .confluence{
 left:40%;
 top:2%;
+margin:0px;
+padding:0px;
 font-size: 300px;
+position:relative;
+color:black;
+text-decoration: none;
 }
 
 a{
@@ -27,25 +34,26 @@ h3:hover{
 }
 
 .button{
-	border-radius:35px;
+	border-radius:18px;
 	position:relative;
-	font-family: 'Montserrat';
+	font-family: 'KeepCalm-Medium';
 	color:#A1C5CB;
-	font-size:60px;
+	font-size:40px;
 	background-color:black;
 	display:inline-block;
-	padding-top:0px;
-	padding-right:10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
 	
 }
 .buttonPosition1{
-	left:70%;
-	top:40%;
+	left:55%;
+	top:20%;
 }
 
 .buttonPosition2{
-	left:55%;
-	top:40%;
+	left:60%;
+	top:20%;
 }
 
 .welcomeMentors{
@@ -62,7 +70,7 @@ h3:hover{
 	text-align: center;
 }
 .watercolor{
-	background-image: url("watercolor.jpg");
+	background-image: url("watercolor1.jpg");
 	background-size:100% 100%;
 }
 
@@ -105,6 +113,12 @@ hr {
 /* Add a blue text color to links */
 a {
     color: dodgerblue;
+}
+
+.pic{
+	float: right;
+	top: 10%;
+	position:relative;
 }
 
 
